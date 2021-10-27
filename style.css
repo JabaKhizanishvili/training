@@ -2,4 +2,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: jaba;
+}
+
+@font-face {
+    font-family: jaba;
+    src: url(./assets/fonts/Armwarmer.otf);
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    float: left;
+    position: fixed;
+
+}
+
+.logo {
+    height: 50%;
+    width: 30%;
+    display: flex;
+}
+
+.logo .container {
+    margin-left: 20px;
+}
+
+.headleft {
+    height: 30%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headleft p {
+    padding-left: 20px;
+}
+
+.header-cointainer {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.header-box {
+    padding-top: 150px;
+    height: 900px;
+    width: 100%;
+    float: left;
+    background: url(./assets/images/backgroind.webp) no-repeat center bottom scroll;
+    background-size: cover;
+}
+
+.header-box-content {
+    height: auto;
+    width: 70%;
+    margin: 200px auto;
+}
+
+.header-box-content button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.header-box-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.header-box-content h4 {
+    font-size: 30px;
+    margin-bottom: 90px;
 }
